@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm build || ( npm install pnpm && pnpm build )"
+  command = "npm build"
   publish = "dist"
   environment = { NODE_VERSION = "16" }
 
