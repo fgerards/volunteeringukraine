@@ -1,7 +1,51 @@
-# Vue 3 + Vite
+<p align='center'>
+  <img src='https://repository-images.githubusercontent.com/442005408/3f8d7fed-9d3f-45c8-bcd5-0fa64e9ac535' alt='Vue.js starter template' width='600'/>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# Vue.js starter template
 
-## Recommended IDE Setup
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/lecoueyl/vue3-template)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Features:
+
+- 🛠 [Vue 3](https://v3.vuejs.org/guide/introduction.html)
+- ⚡️ [Vite](https://vitejs.dev/guide/)
+- 🗂 [PNPM](https://pnpm.io)
+- 🛣 [Vue Router](https://github.com/vuejs/vue-router-next)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/docs/)
+- 🔍 [Eslint with airbnb and stylelint](https://github.com/airbnb/javascript)
+- 🌗 [Light and dark mode composable](https://github.com/lecoueyl/vue3-template/blob/main/src/composables/theme.js)
+- 🔡 [Inter var font](https://rsms.me/inter/)
+- 📄 [Github pages action](https://pages.github.com)
+
+## Getting Started
+
+Scaffold this repository
+
+```sh
+pnpx degit lecoueyl/vue3-template my-project
+cd my-project
+```
+
+Install and start dev server
+
+```sh
+pnpm install
+pnpm run dev
+```
+
+## Deployment
+
+### Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lecoueyl/vue3-template)
+
+### Github pages
+
+The default github action will build to `gh-page` when pushing on `main` branch.
+
+For a project page, the base path of the repository must be specified. Add the following secret in the Github repository Settings > Secrets > Actions
+
+| Name                        | Value                    |
+| --------------------------- | ------------------------ |
+| VITE_BASE_PUBLIC_PATH       | `/repository-name/`      |
