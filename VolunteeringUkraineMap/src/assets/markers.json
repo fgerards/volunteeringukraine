@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Make it possible",
+    "city": "Lviv",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/make-it-possible-ukraine",
+    "lat": 49.8171091,
+    "lng": 24.0426762
+  },
+  {
+    "name": "Front line kitchen",
+    "city": "Lviv",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
+    "lat": 49.842022,
+    "lng": 24.038904
+  },
+  {
+    "name": "Front line kitchen",
+    "city": "Lviv",
+    "category": "Cooking meals for soldiers",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
+    "lat": 49.842022,
+    "lng": 24.038904
+  },
+  {
+    "name": "Hell's kitchen",
+    "city": "Kharkiv",
+    "category": "Preparing meals / Humanitarian work",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/hells-kitchen",
+    "lat": 50.0004504,
+    "lng": 36.2488766
+  },
+  {
+    "name": "Brave to Rebuild",
+    "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
+    "category": "Rebuilding",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
+    "lat": 50.40908962777073,
+    "lng": 30.555707764618944
+  },
+  {
+    "name": "Domivka - Animal Shelter",
+    "city": "Lviv",
+    "category": "Animal shelter",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
+    "lat": 49.846235,
+    "lng": 24.046912
+  },
+  {
+    "name": "BUR - BUILDING\nUKRAINE\nTOGETHER",
+    "city": "Zakarpattya, Lviv, Chernihiv, Kharkiv, Zaporizhzhia, Kyiv, Sumy(Okhtyrka)",
+    "category": "Personal Development & Community rebuilding",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/building-ukraine-together",
+    "lat": 50.49215030556198,
+    "lng": 30.660440453485446
+  },
+  {
+    "name": "Dobrobat",
+    "city": "Kyiv, Chernihiv, Kharkiv, Zaporizhzhia, Sumy, Mykolaiv, Kherson",
+    "category": "Rebuilding",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/dobrobat-rebuilding",
+    "lat": 50.52121866977834,
+    "lng": 30.435364721416807
+  }
+]
