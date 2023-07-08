@@ -59,21 +59,27 @@ export default defineComponent({
         layer-type="base"
         name="CyclOSM"
       />
-      <l-marker
-        v-for="(singleMarker, idx) in importedMarkers"
-        :key="idx"
-        :lat-lng="[singleMarker.lat, singleMarker.lng]"
+      <template
+        v-for="(marker, index) in importedMarkers"
+        :key="index"
       >
-        <l-popup>
-          Name: <b>"{{ singleMarker.name }}"</b><br>
-          City: {{ singleMarker.city }} <br>
-          Category: Teaching English to refugee children<br>
-          Website: <a
-            :href="singleMarker.url"
-            target="_blank"
-          >click</a><br>
-        </l-popup>
-      </l-marker>
+        <template
+          v-for="(position, positionIndex) in marker.positions"
+          :key="positionIndex"
+        >
+          <l-marker :lat-lng="[position.lat, position.lng]">
+            <l-popup>
+              Name: <b>"{{ marker.name }}"</b><br>
+              City: {{ marker.city }} <br>
+              Category: {{ marker.category }}<br>
+              Website: <a
+                :href="marker.url"
+                target="_blank"
+              >click</a><br>
+            </l-popup>
+          </l-marker>
+        </template>
+      </template>
     </l-map>
   </div>
 </template>
