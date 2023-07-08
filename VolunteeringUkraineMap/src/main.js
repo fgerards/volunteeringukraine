@@ -2,6 +2,7 @@ import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import '@/assets/styles/fonts.css';
 import '@/assets/styles/tailwind.css';
+import 'leaflet/dist/leaflet.css';
 import App from '@/App.vue';
 import { routes } from '@/routes.js';
 
