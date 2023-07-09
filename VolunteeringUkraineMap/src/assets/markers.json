@@ -16,7 +16,7 @@
     "name": "Front line kitchen",
     "city": "Lviv",
     "category": "Cooking meals for soldiers",
-    "bgImg": "",
+    "bgImg": "/images/popup/front_line_kitchen.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
     "positions": [
       {
@@ -29,7 +29,7 @@
     "name": "Hell's kitchen",
     "city": "Kharkiv",
     "category": "Preparing meals / Humanitarian work",
-    "bgImg": "",
+    "bgImg": "/images/popup/Hells_Kitchen.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/hells-kitchen",
     "positions": [
       {
@@ -42,7 +42,7 @@
     "name": "Brave to Rebuild",
     "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
     "category": "Rebuilding",
-    "bgImg": "",
+    "bgImg": "/images/popup/Brave_to_rebuild.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
     "positions": [
       {
@@ -75,8 +75,8 @@
     "name": "Domivka - Animal Shelter",
     "city": "Lviv",
     "category": "Animal shelter",
-    "bgImg": "",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
+    "bgImg": "/images/popup/Animal_Shelter.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/domivka-shelter",
     "positions": [
       {
         "lat": 49.846235,
@@ -85,10 +85,10 @@
     ]
   },
   {
-    "name": "BUR - BUILDING\nUKRAINE\nTOGETHER",
+    "name": "BUR - BUILDING UKRAINE TOGETHER",
     "city": "Zakarpattya, Lviv, Chernihiv, Kharkiv, Zaporizhzhia, Kyiv, Sumy(Okhtyrka)",
     "category": "Personal Development & Community rebuilding",
-    "bgImg": "",
+    "bgImg": "/images/popup/BUR.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/building-ukraine-together",
     "positions": [
       {
@@ -125,7 +125,7 @@
     "name": "Dobrobat",
     "city": "Kyiv, Chernihiv, Kharkiv, Zaporizhzhia, Sumy, Mykolaiv, Kherson",
     "category": "Rebuilding",
-    "bgImg": "",
+    "bgImg": "/images/popup/dobrobrat.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/dobrobat-rebuilding",
     "positions": [
       {
