@@ -2,6 +2,8 @@
   {
     "name": "Make it possible",
     "city": "Lviv",
+    "category": "Teaching english for refugee children",
+    "bgImg": "/images/popup/make_it_possible.jpg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/make-it-possible-ukraine",
     "positions": [
       {
@@ -14,6 +16,7 @@
     "name": "Front line kitchen",
     "city": "Lviv",
     "category": "Cooking meals for soldiers",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
     "positions": [
       {
@@ -26,6 +29,7 @@
     "name": "Hell's kitchen",
     "city": "Kharkiv",
     "category": "Preparing meals / Humanitarian work",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/hells-kitchen",
     "positions": [
       {
@@ -38,6 +42,7 @@
     "name": "Brave to Rebuild",
     "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
     "category": "Rebuilding",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
     "positions": [
       {
@@ -70,6 +75,7 @@
     "name": "Domivka - Animal Shelter",
     "city": "Lviv",
     "category": "Animal shelter",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
     "positions": [
       {
@@ -82,6 +88,7 @@
     "name": "BUR - BUILDING\nUKRAINE\nTOGETHER",
     "city": "Zakarpattya, Lviv, Chernihiv, Kharkiv, Zaporizhzhia, Kyiv, Sumy(Okhtyrka)",
     "category": "Personal Development & Community rebuilding",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/building-ukraine-together",
     "positions": [
       {
@@ -118,6 +125,7 @@
     "name": "Dobrobat",
     "city": "Kyiv, Chernihiv, Kharkiv, Zaporizhzhia, Sumy, Mykolaiv, Kherson",
     "category": "Rebuilding",
+    "bgImg": "",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/dobrobat-rebuilding",
     "positions": [
       {

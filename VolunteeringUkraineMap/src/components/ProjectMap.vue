@@ -1,6 +1,5 @@
 <script>
 import { defineComponent } from 'vue';
-import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import {
   LMap, LTileLayer, LMarker, LPopup,
@@ -34,6 +33,9 @@ export default defineComponent({
     };
   },
   methods: {
+    markerBgImageStyle(marker) {
+      return `background-image: url(${marker.bgImg})`;
+    },
     async readyHandler() {
       const lBounds = [
         [51, 22],
@@ -73,14 +75,30 @@ export default defineComponent({
             :lat-lng="[position.lat, position.lng]"
             :icon="icon"
           >
-            <l-popup>
-              Name: <b>"{{ marker.name }}"</b><br>
-              City: {{ marker.city }} <br>
-              Category: {{ marker.category }}<br>
-              Website: <a
-                :href="marker.url"
-                target="_blank"
-              >click</a><br>
+            <l-popup
+              class="popup-shadow inline-flex shrink-0 items-start justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px]"
+            >
+              <div
+                class="w-1/3 bg-cover"
+                :style="markerBgImageStyle(marker)"
+              />
+              <div class="w-2/3 py-3 leading-3">
+                <h2 class="text-[18px] leading-5 text-blue-600">
+                  {{ marker.name }}
+                </h2>
+                <p class="!m-0 !my-[4px] !p-0 text-gray-500">
+                  {{ marker.category }}
+                </p>
+                <p class="!m-0 !my-[8px] !p-0">
+                  <span class="text-base">Location:</span><br>
+                  <span class="text-gray-500">{{ marker.city }}</span>
+                </p>
+                <a
+                  class="text-base !text-blue-600 underline"
+                  :href="marker.url"
+                  target="_blank"
+                >Learn more</a>
+              </div>
             </l-popup>
           </l-marker>
         </template>

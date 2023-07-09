@@ -8,8 +8,11 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        'make-it-possible': "url('/images/popup/make_it_possible.jpg')",
+      },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['E ukraine', ...defaultTheme.fontFamily.sans],
       },
     },
   },
