@@ -7,14 +7,6 @@ import {
 } from '@vue-leaflet/vue-leaflet';
 import markerData from '../assets/markers.json';
 
-// eslint-disable-next-line no-underscore-dangle
-delete L.Icon.Default.prototype._getIconUrl();
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: '/images/dist/images/marker-icon-2x.png',
-  iconUrl: '/images/dist/images/marker-icon.png',
-  shadowUrl: '/images/dist/images/marker-shadow.png',
-});
-
 export default defineComponent({
   name: 'ProjectMap',
   components: {
@@ -29,6 +21,16 @@ export default defineComponent({
         zoomSnap: 0.2,
       },
       importedMarkers: markerData,
+      icon: L.icon({
+        iconUrl: 'images/material-symbols_location-on.png',
+        iconSize: [35, 35],
+        iconAnchor: [17, 35],
+        iconRetinaUrl: 'images/material-symbols_location-on-2x.png',
+        shadowUrl: 'images/marker-shadow.png',
+        shadowSize: [25, 41],
+        shadowAnchor: [7, 41],
+        popupAnchor: [0, -16],
+      }),
     };
   },
   methods: {
@@ -67,7 +69,10 @@ export default defineComponent({
           v-for="(position, positionIndex) in marker.positions"
           :key="positionIndex"
         >
-          <l-marker :lat-lng="[position.lat, position.lng]">
+          <l-marker
+            :lat-lng="[position.lat, position.lng]"
+            :icon="icon"
+          >
             <l-popup>
               Name: <b>"{{ marker.name }}"</b><br>
               City: {{ marker.city }} <br>
