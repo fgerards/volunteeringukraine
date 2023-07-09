@@ -27,9 +27,9 @@ export default defineComponent({
         iconAnchor: [17, 35],
         iconRetinaUrl: 'images/material-symbols_location-on-2x.png',
         shadowUrl: 'images/marker-shadow.png',
-        shadowSize: [25, 41],
-        shadowAnchor: [7, 41],
-        popupAnchor: [0, -16],
+        shadowSize: [25, 32],
+        shadowAnchor: [7, 30],
+        popupAnchor: [1, -16],
       }),
     };
   },
