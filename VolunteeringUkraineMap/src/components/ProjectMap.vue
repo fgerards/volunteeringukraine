@@ -76,12 +76,16 @@ export default defineComponent({
             :icon="icon"
           >
             <l-popup
-              class="popup-shadow inline-flex shrink-0 items-start justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px]"
+              class="popup-shadow flex h-[100%] shrink-0 items-stretch justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px]"
             >
               <div
-                class="h-[147px] w-1/3 bg-cover bg-center "
-                :style="markerBgImageStyle(marker)"
-              />
+                class="w-1/3"
+              >
+                <img
+                  :src="marker.bgImg"
+                  class="h-full object-cover"
+                >
+              </div>
               <div class="w-2/3 py-3 leading-3">
                 <h2 class="text-[18px] leading-5 text-blue-600">
                   {{ marker.name }}
