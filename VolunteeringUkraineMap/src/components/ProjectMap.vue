@@ -76,7 +76,7 @@ export default defineComponent({
             :icon="icon"
           >
             <l-popup
-              class="popup-shadow flex h-[100%] shrink-0 items-stretch justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px] max-sm:flex-col"
+              class="popup-shadow flex h-[100%] min-w-[300px] shrink-0 items-stretch justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px] max-sm:flex-col"
             >
               <div
                 class="md: w-1/3 max-sm:w-full"
