@@ -1,12 +1,12 @@
 [
   {
     "name": "Make it possible",
-    "city": "Lviv",
     "category": "Teaching english for refugee children",
     "bgImg": "/images/popup/make_it_possible.jpg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/make-it-possible-ukraine",
     "positions": [
       {
+        "city": "Lviv",
         "lat": 49.8171091,
         "lng": 24.0426762
       }
@@ -14,12 +14,12 @@
   },
   {
     "name": "Front line kitchen",
-    "city": "Lviv",
     "category": "Cooking meals for soldiers",
     "bgImg": "/images/popup/front_line_kitchen.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
     "positions": [
       {
+        "city": "Lviv",
         "lat": 49.842022,
         "lng": 24.038904
       }
@@ -27,12 +27,12 @@
   },
   {
     "name": "Hell's kitchen",
-    "city": "Kharkiv",
     "category": "Preparing meals / Humanitarian work",
     "bgImg": "/images/popup/Hells_Kitchen.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/hells-kitchen",
     "positions": [
       {
+        "city": "Kharkiv",
         "lat": 50.0004504,
         "lng": 36.2488766
       }
@@ -46,26 +46,32 @@
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
     "positions": [
       {
+        "city": "Kyiv",
         "lat": 50.40908962777073,
         "lng": 30.555707764618944
       },
       {
+        "city": "Irpin",
         "lat": 50.526148207437096,
         "lng": 30.241051982499705
       },
       {
+        "city": "Gostomel",
         "lat": 50.5745745541678,
         "lng": 30.21459233809995
       },
       {
+        "city": "Bucha",
         "lat": 50.55123109600308,
         "lng": 30.214980916426814
       },
       {
+        "city": "Kharkiv (region)",
         "lat": 49.91463314226112,
         "lng": 36.26770730545602
       },
       {
+        "city": "Kherson",
         "lat": 46.65525699716692,
         "lng": 32.60176875697831
       }
@@ -73,12 +79,12 @@
   },
   {
     "name": "Domivka - Animal Shelter",
-    "city": "Lviv",
     "category": "Animal shelter",
     "bgImg": "/images/popup/Animal_Shelter.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/domivka-shelter",
     "positions": [
       {
+        "city": "Lviv",
         "lat": 49.846235,
         "lng": 24.046912
       }
@@ -92,30 +98,37 @@
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/building-ukraine-together",
     "positions": [
       {
+        "city": "Kyiv",
         "lat": 50.49215030556198,
         "lng": 30.660440453485446
       },
       {
+        "city": "Zakarpattya",
         "lat": 48.59159997509973,
         "lng": 22.320418202411744
       },
       {
+        "city": "Chernihiv",
         "lat": 51.49337673950696,
         "lng": 31.281607763906685
       },
       {
+        "city": "Kharkiv",
         "lat": 50.024302279992355,
         "lng": 36.374467265455586
       },
       {
+        "city": "Lviv",
         "lat": 49.83177359017015,
         "lng": 23.920910043829437
       },
       {
+        "city": "Zaporizhzhia",
         "lat": 47.83443555670414,
         "lng": 35.078501162975485
       },
       {
+        "city": "Sumy(Okhtyrka)",
         "lat": 50.31093468245315,
         "lng": 34.89738107324421
       }
@@ -129,30 +142,37 @@
     "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/dobrobat-rebuilding",
     "positions": [
       {
+        "city": "Kyiv",
         "lat": 50.52121866977834,
         "lng": 30.435364721416807
       },
       {
+        "city": "Chernihiv",
         "lat": 51.44678725894608,
         "lng": 31.267472004379307
       },
       {
+        "city": "Kharkiv",
         "lat": 49.90414192241719,
         "lng": 36.47524211593954
       },
       {
+        "city": "Zaporizhzhia",
         "lat": 47.888841455359405,
         "lng": 35.33147460069738
       },
       {
+        "city": "Sumy",
         "lat": 50.905171782465324,
         "lng": 34.783661970701
       },
       {
+        "city": "Mykolaiv",
         "lat": 46.9524858319787,
         "lng": 31.96715518488871
       },
       {
+        "city": "Kherson",
         "lat": 46.66553696249121,
         "lng": 32.67940737600025
       }

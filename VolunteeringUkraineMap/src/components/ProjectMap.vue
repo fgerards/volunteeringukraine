@@ -95,7 +95,7 @@ export default defineComponent({
                 </p>
                 <p class="!m-0 !my-[8px] !p-0">
                   <span class="text-base">Location:</span><br>
-                  <span class="text-gray-500">{{ marker.city }}</span>
+                  <span class="text-gray-500">{{ position.city }}</span>
                 </p>
                 <a
                   class="text-base !text-blue-600 underline"
