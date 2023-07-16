@@ -79,11 +79,11 @@ export default defineComponent({
               class="popup-shadow flex h-[100%] min-w-[300px] shrink-0 items-stretch justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px] max-sm:flex-col"
             >
               <div
-                class="md: w-1/3 max-sm:w-full"
+                class="flex max-sm:w-full md:w-1/3"
               >
                 <img
                   :src="marker.bgImg"
-                  class="h-full object-cover"
+                  class="object-cover"
                 >
               </div>
               <div class="w-2/3 py-3 leading-3">
