@@ -2,9 +2,10 @@
 import { defineComponent } from 'vue';
 import L from 'leaflet';
 import {
-  LMap, LTileLayer, LMarker, LPopup,
+  LMap, LTileLayer, LMarker, LPopup, LGeoJson,
 } from '@vue-leaflet/vue-leaflet';
 import markerData from '../assets/markers.json';
+import ukraineBorderGeoJson from '../assets/stanford-nv937bq8361-geojson.json';
 
 export default defineComponent({
   name: 'ProjectMap',
@@ -13,13 +14,25 @@ export default defineComponent({
     LMap,
     LTileLayer,
     LMarker,
+    LGeoJson,
   },
   data() {
     return {
+      styleFunction: this.getStyle(0),
       mapOptions: {
         zoomSnap: 0.2,
       },
+      tileUrl: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+      tileLayerOptions: {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v9', // You'll need to change this to the style you want
+        tileSize: 512,
+        zoomOffset: -1,
+        accessToken: 'pk.eyJ1IjoiZnJhbmtnNzQiLCJhIjoiY2xrNWkxcG85MDFyejNkbWR4c3kxbmh2cyJ9.6inWsEyBxcPF6YYxgR3FkA', // Your Mapbox access token
+      },
       importedMarkers: markerData,
+      ukrBorders: ukraineBorderGeoJson,
       icon: L.icon({
         iconUrl: 'images/material-symbols_location-on.png',
         iconSize: [35, 35],
@@ -33,6 +46,15 @@ export default defineComponent({
     };
   },
   methods: {
+    getStyle(opacity = 0) {
+      return () => ({
+        weight: 2.5,
+        color: '#474eff',
+        opacity,
+        fillColor: '#ffcc00',
+        fillOpacity: 0.15,
+      });
+    },
     markerBgImageStyle(marker) {
       return `background-image: url(${marker.bgImg})`;
     },
@@ -42,7 +64,11 @@ export default defineComponent({
         [47, 39.9],
       ];
       const map = this.$refs.map.leafletObject;
+      this.styleFunction = this.getStyle(0);
       map.flyToBounds(lBounds, { duration: 0.6, easeLinearity: 0.48 });
+      setTimeout(() => {
+        this.styleFunction = this.getStyle(1);
+      }, 700);
     },
   },
 });
@@ -58,10 +84,12 @@ export default defineComponent({
       @ready="readyHandler"
     >
       <l-tile-layer
-        url="https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png"
-        attribution="&copy; Stadia Maps, &copy; OpenMapTiles, &copy; OpenStreetMap contributors"
-        layer-type="base"
-        name="CyclOSM"
+        :url="tileUrl"
+        :options="tileLayerOptions"
+      />
+      <l-geo-json
+        :geojson="ukrBorders"
+        :options-style="styleFunction"
       />
       <template
         v-for="(marker, index) in importedMarkers"
