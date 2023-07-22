@@ -46,13 +46,13 @@ export default defineComponent({
     };
   },
   methods: {
-    getStyle(opacity = 0) {
+    getStyle(opacity = 0, fillOpacity = 0) {
       return () => ({
         weight: 2.5,
         color: '#474eff',
         opacity,
         fillColor: '#ffcc00',
-        fillOpacity: 0.15,
+        fillOpacity,
       });
     },
     markerBgImageStyle(marker) {
@@ -60,15 +60,15 @@ export default defineComponent({
     },
     async readyHandler() {
       const lBounds = [
-        [51, 22],
-        [47, 39.9],
+        [52.5, 21],
+        [44.5, 41],
       ];
       const map = this.$refs.map.leafletObject;
-      this.styleFunction = this.getStyle(0);
+      this.styleFunction = this.getStyle(0, 0.05);
       map.flyToBounds(lBounds, { duration: 0.6, easeLinearity: 0.48 });
       setTimeout(() => {
-        this.styleFunction = this.getStyle(1);
-      }, 700);
+        this.styleFunction = this.getStyle(1, 0.15);
+      }, 600);
     },
   },
 });
