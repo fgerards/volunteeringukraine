@@ -48,7 +48,7 @@ export default defineComponent({
   methods: {
     getStyle(opacity = 0, fillOpacity = 0) {
       return () => ({
-        weight: 2.5,
+        weight: 1.5,
         color: '#474eff',
         opacity,
         fillColor: '#ffcc00',
