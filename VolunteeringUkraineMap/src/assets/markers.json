@@ -177,5 +177,18 @@
         "lng": 32.67940737600025
       }
     ]
+  },
+  {
+    "name": "Razom for Ukraine",
+    "category": "Packing medical kits for soldiers and medics at the front lines",
+    "bgImg": "/images/popup/Razom_for_Ukraine.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/razom-for-ukraine",
+    "positions": [
+      {
+        "city": "Kyiv oblast",
+        "lat": 50.5842745,
+        "lng": 30.494609
+      }
+    ]
   }
 ]
