@@ -3,7 +3,7 @@
     "name": "Make it possible",
     "category": "Teaching english for refugee children",
     "bgImg": "/images/popup/make_it_possible.jpg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/make-it-possible-ukraine",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/make-it-possible-ukraine",
     "positions": [
       {
         "city": "Lviv",
@@ -16,7 +16,7 @@
     "name": "Front line kitchen",
     "category": "Cooking meals for soldiers",
     "bgImg": "/images/popup/front_line_kitchen.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/front-line-kitchen",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/front-line-kitchen",
     "positions": [
       {
         "city": "Lviv",
@@ -29,7 +29,7 @@
     "name": "Hell's kitchen",
     "category": "Preparing meals / Humanitarian work",
     "bgImg": "/images/popup/Hells_Kitchen.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/hells-kitchen",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/hells-kitchen",
     "positions": [
       {
         "city": "Kharkiv",
@@ -43,7 +43,7 @@
     "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
     "category": "Rebuilding",
     "bgImg": "/images/popup/Brave_to_rebuild.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/brave-to-rebuild",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/brave-to-rebuild",
     "positions": [
       {
         "city": "Kyiv",
@@ -81,7 +81,7 @@
     "name": "Domivka - Animal Shelter",
     "category": "Animal shelter",
     "bgImg": "/images/popup/Animal_Shelter.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/domivka-shelter",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/domivka-shelter",
     "positions": [
       {
         "city": "Lviv",
@@ -95,7 +95,7 @@
     "city": "Zakarpattya, Lviv, Chernihiv, Kharkiv, Zaporizhzhia, Kyiv, Sumy(Okhtyrka)",
     "category": "Personal Development & Community rebuilding",
     "bgImg": "/images/popup/BUR.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/building-ukraine-together",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/building-ukraine-together",
     "positions": [
       {
         "city": "Kyiv",
@@ -139,7 +139,7 @@
     "city": "Kyiv, Chernihiv, Kharkiv, Zaporizhzhia, Sumy, Mykolaiv, Kherson",
     "category": "Rebuilding",
     "bgImg": "/images/popup/dobrobrat.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/dobrobat-rebuilding",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/dobrobat-rebuilding",
     "positions": [
       {
         "city": "Kyiv",
@@ -182,12 +182,56 @@
     "name": "Razom for Ukraine",
     "category": "Packing medical kits for soldiers and medics at the front lines",
     "bgImg": "/images/popup/Razom_for_Ukraine.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunuties/razom-for-ukraine",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/razom-for-ukraine",
     "positions": [
       {
         "city": "Kyiv oblast",
         "lat": 50.5842745,
         "lng": 30.494609
+      }
+    ]
+  },
+  {
+    "name": "Pasta Cafe",
+    "category": "Package dinners for IDP / Dry meal plan for soldiers",
+    "bgImg": "/images/popup/pasta_cafe.jpg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/pc-pastacafe",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8296501,
+        "lng": 23.9941467
+      }
+    ]
+  },
+  {
+    "name": "GO GLOBAL NGO",
+    "category": "Online Educational Programs for Children",
+    "bgImg": "/images/popup/go_global_ngo.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/go-global-ngo",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.4512112,
+        "lng": 30.5230788
+      }
+    ]
+  },
+  {
+    "name": "Siobhan's Trust Ukraine",
+    "category": "Cooking pizza for IDPs, orphans, elderly",
+    "bgImg": "/images/popup/siobhans_trust.jpg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/siobhans-trust",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8325722,
+        "lng": 23.8474292
+      },
+      {
+        "city": "Zaporizhzhya",
+        "lat": 47.8561111,
+        "lng": 35.0105465
       }
     ]
   }
