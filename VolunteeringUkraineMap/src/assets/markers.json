@@ -192,6 +192,68 @@
     ]
   },
   {
+    "name": "Kyiv Kitchen Hub \"Ants\"",
+    "category": "Preparation of dehydrated ready meals for soldiers on the frontline",
+    "bgImg": "/images/popup/Kyiv_Kitchen_Ants.png",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/kyiv-kitchen-ants",
+    "positions": [
+      {
+        "city": "Kyiv oblast",
+        "lat": 50.5034664,
+        "lng": 30.5501114
+      }
+    ]
+  },
+  {
+    "name": "Lviv Camouflage Netting",
+    "category": "Crafting camouflage nets to protect soldiers at the frontline.",
+    "bgImg": "/images/popup/Lviv_Camouflage_Netting.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/lviv-camouflage-netting",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.832689,
+        "lng": 24.0122355
+      }
+    ]
+  },
+  {
+    "name": "“Free Land” program",
+    "category": "Demining territories in Ukraine, environmental cleanup, and organizing practical courses on handling explosive ordnance for specialized professionals and volunteers.",
+    "bgImg": "/images/popup/Free_Land_Program.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/charitable-organization-bank-lviv-charitable-fund",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8415405,
+        "lng": 24.0329847
+      }
+    ]
+  },
+  {
+    "name": "NGO \"Ukraine is Europe\"",
+    "category": "Sending humanitarian convoys and ambulances to conflict zones, providing vital supplies and support",
+    "bgImg": "/images/popup/NGO_Ukraine_is_Europe.png",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/ukraine-is-europe",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8327705,
+        "lng": 23.9296644
+      },
+      {
+        "city": "Dnipro",
+        "lat": 48.462408,
+        "lng": 34.83521
+      },
+      {
+        "city": "Kharkiv",
+        "lat": 49.9946724,
+        "lng": 36.2032536
+      }
+    ]
+  },
+  {
     "name": "Pasta Cafe",
     "category": "Package dinners for IDP / Dry meal plan for soldiers",
     "bgImg": "/images/popup/pasta_cafe.jpg",
