@@ -20,7 +20,7 @@ export default defineComponent({
     return {
       styleFunction: this.getStyle(0),
       mapOptions: {
-        zoomSnap: 0.2,
+        zoomSnap: 0.85,
       },
       tileUrl: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
       tileLayerOptions: {
@@ -79,7 +79,7 @@ export default defineComponent({
     <l-map
       ref="map"
       :options="mapOptions"
-      :zoom="0.2"
+      :zoom="0.1"
       :center="[0,0]"
       @ready="readyHandler"
     >
