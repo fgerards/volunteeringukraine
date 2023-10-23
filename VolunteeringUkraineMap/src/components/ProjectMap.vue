@@ -79,7 +79,7 @@ export default defineComponent({
     <l-map
       ref="map"
       :options="mapOptions"
-      :zoom="0.1"
+      :zoom="0.2"
       :center="[0,0]"
       @ready="readyHandler"
     >

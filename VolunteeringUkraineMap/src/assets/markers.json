@@ -13,19 +13,6 @@
     ]
   },
   {
-    "name": "Front line kitchen",
-    "category": "Cooking meals for soldiers",
-    "bgImg": "/images/popup/front_line_kitchen.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/front-line-kitchen",
-    "positions": [
-      {
-        "city": "Lviv",
-        "lat": 49.842022,
-        "lng": 24.038904
-      }
-    ]
-  },
-  {
     "name": "Hell's kitchen",
     "category": "Preparing meals / Humanitarian work",
     "bgImg": "/images/popup/Hells_Kitchen.jpeg",
