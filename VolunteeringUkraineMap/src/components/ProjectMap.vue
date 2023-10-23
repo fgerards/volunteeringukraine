@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue';
 import L from 'leaflet';
 import {
-  LMap, LTileLayer, LMarker, LPopup, LGeoJson,
+  LMap, LTileLayer, LMarker, LPopup, LGeoJson, LControlZoom,
 } from '@vue-leaflet/vue-leaflet';
 import markerData from '../assets/markers.json';
 import ukraineBorderGeoJson from '../assets/stanford-nv937bq8361-geojson.json';
@@ -10,6 +10,7 @@ import ukraineBorderGeoJson from '../assets/stanford-nv937bq8361-geojson.json';
 export default defineComponent({
   name: 'ProjectMap',
   components: {
+    LControlZoom,
     LPopup,
     LMap,
     LTileLayer,
@@ -21,6 +22,7 @@ export default defineComponent({
       styleFunction: this.getStyle(0),
       mapOptions: {
         zoomSnap: 0.85,
+        zoomControl: false,
       },
       tileUrl: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
       tileLayerOptions: {
@@ -83,6 +85,7 @@ export default defineComponent({
       :center="[0,0]"
       @ready="readyHandler"
     >
+      <l-control-zoom position="topright" />
       <l-tile-layer
         :url="tileUrl"
         :options="tileLayerOptions"
