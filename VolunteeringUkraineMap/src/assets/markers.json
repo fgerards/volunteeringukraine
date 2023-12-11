@@ -283,5 +283,111 @@
         "lng": 35.0105465
       }
     ]
+  },
+  {
+    "name": "Insulate Ukraine",
+    "category": "Insulate Ukraine is an NGO addressing the urgent problem of shattered windows in war-torn Ukraine.",
+    "bgImg": "/images/popup/insulate_ukraine.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/insulate-ukraine",
+    "positions": [
+      {
+        "city": "Nikopol",
+        "lat": 47.601017,
+        "lng": 34.373001
+      },
+      {
+        "city": "Kherson",
+        "lat": 46.6465197,
+        "lng": 32.6084697
+      },
+      {
+        "city": "Lyman",
+        "lat": 48.977139,
+        "lng": 37.816484
+      },
+      {
+        "city": "Izyum",
+        "lat": 49.215030,
+        "lng": 37.273125
+      }
+    ]
+  },
+  {
+    "name": "Camo netting By_Porokhova",
+    "category": "Making Camouflage Helmet Covers at Home",
+    "bgImg": "/images/popup/camonetting_porokhova.jpg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/making-camouflage-helmet-covers-at-home",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.841805,
+        "lng": 24.015737
+      }
+    ]
+  },
+  {
+    "name": "Gurtum Charity Foundation",
+    "category": "Rebuilding & Community Development",
+    "bgImg": "/images/popup/gurtum_charity_foundation.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/gurtum-charity-foundation",
+    "positions": [
+      {
+        "city": "Kyiv Oblast",
+        "lat": 50.55598466719417,
+        "lng": 30.2945710246316
+      }
+    ]
+  },
+  {
+    "name": "«Swamp Brotherhood» Camo Netting",
+    "category": "Netting Camouflage Products for the Armed Forces of Ukraine",
+    "bgImg": "/images/popup/swamp_brotherhood_camo_netting.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/kyiv-camouflage-netting-swamp-brotherhood",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.41096981889954,
+        "lng": 30.651375105611205
+      }
+    ]
+  },
+  {
+    "name": "Lviv Animal Center \"Lev\"",
+    "category": "Animal shelter",
+    "bgImg": "/images/popup/lviv_animal_center_lev.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/animal-shelter-lev",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8634164768816,
+        "lng": 24.044407349075723
+      }
+    ]
+  },
+  {
+    "name": "Kitty Pechersk",
+    "category": "Weaving camo nets, kikimoras",
+    "bgImg": "/images/popup/kitty_pechersk.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/kitty-pechersk",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.430622570950746,
+        "lng": 30.54963879325325
+      }
+    ]
+  },
+  {
+    "name": "Holy Trinity Church",
+    "category": "Humanitarian help for civilians in deoccupied territories",
+    "bgImg": "/images/popup/holy_trinity_church.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/holy-trinity-church",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": 50.009097873512,
+        "lng": 36.32117430674674
+      }
+    ]
   }
 ]
