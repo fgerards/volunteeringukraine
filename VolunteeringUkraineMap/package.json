@@ -17,7 +17,7 @@
     "vue3-google-map": "^0.18.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.2",
     "@vue-leaflet/vue-leaflet": "^0.10.1",
     "autoprefixer": "^10.4.16",
     "copyfiles": "^2.4.1",
