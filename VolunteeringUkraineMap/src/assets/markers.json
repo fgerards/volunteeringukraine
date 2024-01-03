@@ -389,5 +389,31 @@
         "lng": 36.32117430674674
       }
     ]
+  },
+  {
+    "name": "Volunteering-Ukraine Drop Off Hub",
+    "category": "Lviv's central point for various volunteer engagements",
+    "bgImg": "/images/popup/lviv_dropoff_hub.webp",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/volunteeringukraine-drop-off-hub",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8445833,
+        "lng": 24.0268056
+      }
+    ]
+  },
+  {
+    "name": "Trench Candle Making Lviv",
+    "category": "Lviv's central point for various volunteer engagements",
+    "bgImg": "/images/popup/trench_candle_making.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/trench-candle-making-lviv",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8418925,
+        "lng": 24.0329105
+      }
+    ]
   }
 ]
