@@ -103,6 +103,7 @@ export default defineComponent({
           :key="positionIndex"
         >
           <l-marker
+            v-if="position.show === true"
             :lat-lng="[position.lat, position.lng]"
             :icon="icon"
           >
@@ -115,6 +116,7 @@ export default defineComponent({
                 <img
                   :src="marker.bgImg"
                   class="object-cover"
+                  alt="backgroundImage"
                 >
               </div>
               <div class="w-2/3 py-3 leading-3">
