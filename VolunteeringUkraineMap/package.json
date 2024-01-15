@@ -30,7 +30,7 @@
     "leaflet": "^1.9.4",
     "pnpm": "^8.13.1",
     "postcss": "^8.4.33",
-    "postcss-html": "^1.5.0",
+    "postcss-html": "^1.6.0",
     "stylelint": "^16.1.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended-vue": "^1.5.0",
