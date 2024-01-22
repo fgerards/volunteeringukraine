@@ -12,7 +12,7 @@
     "copyfiles": "copyfiles -u 2 node_modules/leaflet/dist/images/* public/images"
   },
   "dependencies": {
-    "vue": "^3.4.5",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5",
     "vue3-google-map": "^0.18.0"
   },
