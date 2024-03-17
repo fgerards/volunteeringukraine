@@ -14,20 +14,6 @@
     ]
   },
   {
-    "name": "Hell's kitchen",
-    "category": "Preparing meals / Humanitarian work",
-    "bgImg": "/images/popup/Hells_Kitchen.jpeg",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/hells-kitchen",
-    "positions": [
-      {
-        "city": "Kharkiv",
-        "lat": 50.0004504,
-        "lng": 36.2488766,
-        "show": true
-      }
-    ]
-  },
-  {
     "name": "Brave to Rebuild",
     "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
     "category": "Rebuilding",
@@ -299,7 +285,7 @@
     ]
   },
   {
-    "name": "Siobhan's Trust Ukraine",
+    "name": "HopeFull (formerly Siobhan’s Trust Ukraine)",
     "category": "Cooking pizza for IDPs, orphans, elderly",
     "bgImg": "/images/popup/siobhans_trust.jpg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/siobhans-trust",
@@ -315,6 +301,26 @@
         "lat": 47.8561111,
         "lng": 35.0105465,
         "show": true
+      },
+      {
+        "city": "Kharkiv",
+        "lat": 49.9899162,
+        "lng": 36.2542324,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Hell's kitchen",
+    "category": "Preparing meals / Humanitarian work",
+    "bgImg": "/images/popup/Hells_Kitchen.jpeg",
+    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/hells-kitchen",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": 50.0004504,
+        "lng": 36.2488766,
+        "show": false
       }
     ]
   },
@@ -344,7 +350,7 @@
       },
       {
         "city": "Izyum",
-        "lat": 49.215030,
+        "lat": 49.21503,
         "lng": 37.273125,
         "show": true
       }
@@ -435,7 +441,7 @@
     ]
   },
   {
-    "name": "Volunteering-Ukraine Drop Off Hub",
+    "name": "Volunteering-Ukraine Information center",
     "category": "Lviv's central point for various volunteer engagements",
     "bgImg": "/images/popup/lviv_dropoff_hub.webp",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/volunteeringukraine-drop-off-hub",

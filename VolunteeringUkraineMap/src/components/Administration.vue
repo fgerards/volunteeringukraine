@@ -21,17 +21,13 @@ export default defineComponent({
 
 <template>
   <div class="flex p-3">
-    <form
-      class="admin-form"
-    >
+    <form class="admin-form">
       <fieldset
         v-for="(marker, markerIndex) in state.markers"
         :key="markerIndex"
         class="mb-12"
       >
-        <h2
-          class="font-bold"
-        >
+        <h2 class="font-bold">
           Project name: {{ marker.name }}
         </h2>
         <p class="mt-4">
@@ -44,9 +40,7 @@ export default defineComponent({
             @change="writeToFile(marker.name)"
           >
         </p>
-        <p
-          class="mt-4"
-        >
+        <p class="mt-4">
           URL:
           <input
             v-model="marker.url"
@@ -59,7 +53,7 @@ export default defineComponent({
             Project locations
           </h3>
           <p
-            v-for="(position,posIndex) in marker.positions"
+            v-for="(position, posIndex) in marker.positions"
             :key="posIndex"
             class="mb-2 scale-90 px-4"
           >
@@ -93,6 +87,4 @@ export default defineComponent({
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

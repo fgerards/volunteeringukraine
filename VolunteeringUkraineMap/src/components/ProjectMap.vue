@@ -2,7 +2,12 @@
 import { defineComponent } from 'vue';
 import L from 'leaflet';
 import {
-  LMap, LTileLayer, LMarker, LPopup, LGeoJson, LControlZoom,
+  LMap,
+  LTileLayer,
+  LMarker,
+  LPopup,
+  LGeoJson,
+  LControlZoom,
 } from '@vue-leaflet/vue-leaflet';
 import markerData from '../assets/markers.json';
 import ukraineBorderGeoJson from '../assets/stanford-nv937bq8361-geojson.json';
@@ -24,14 +29,17 @@ export default defineComponent({
         zoomSnap: 0.85,
         zoomControl: false,
       },
-      tileUrl: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+      tileUrl:
+        'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
       tileLayerOptions: {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        attribution:
+          'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18,
         id: 'mapbox/streets-v9', // You'll need to change this to the style you want
         tileSize: 512,
         zoomOffset: -1,
-        accessToken: 'pk.eyJ1IjoiZnJhbmtnNzQiLCJhIjoiY2xrNWkxcG85MDFyejNkbWR4c3kxbmh2cyJ9.6inWsEyBxcPF6YYxgR3FkA', // Your Mapbox access token
+        accessToken:
+          'pk.eyJ1IjoiZnJhbmtnNzQiLCJhIjoiY2xrNWkxcG85MDFyejNkbWR4c3kxbmh2cyJ9.6inWsEyBxcPF6YYxgR3FkA', // Your Mapbox access token
       },
       importedMarkers: markerData,
       ukrBorders: ukraineBorderGeoJson,
@@ -82,7 +90,7 @@ export default defineComponent({
       ref="map"
       :options="mapOptions"
       :zoom="0.1"
-      :center="[0,0]"
+      :center="[0, 0]"
       @ready="readyHandler"
     >
       <l-control-zoom position="topright" />
@@ -110,9 +118,7 @@ export default defineComponent({
             <l-popup
               class="popup-shadow flex h-[100%] min-w-[300px] shrink-0 items-stretch justify-center gap-[16px] rounded-[2px] bg-white px-[16px] py-[4px] max-sm:flex-col"
             >
-              <div
-                class="flex max-sm:w-full md:w-1/3"
-              >
+              <div class="flex max-sm:w-full md:w-1/3">
                 <img
                   :src="marker.bgImg"
                   class="object-cover"

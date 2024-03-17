@@ -1,12 +1,10 @@
-import { defineComponent, reactive } from 'vue';
-import markerData from '../assets/markers.json';
+import { defineComponent, reactive } from 'vue'; import markerData from
+'../assets/markers.json';
 
-<script setup>
+<script setup></script>
 
-</script>
+<template>
+  <div />
+</template>
 
-<template />
-
-<style scoped>
-
-</style>
+<style scoped></style>

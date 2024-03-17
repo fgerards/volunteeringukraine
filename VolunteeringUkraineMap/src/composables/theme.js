@@ -5,7 +5,10 @@ export const currentTheme = ref('light');
 export const initTheme = () => {
   if (localStorage.getItem('theme')) {
     currentTheme.value = localStorage.getItem('theme');
-  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  } else if (
+    window.matchMedia
+    && window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
     currentTheme.value = 'dark';
   }
   if (currentTheme.value === 'dark') {
