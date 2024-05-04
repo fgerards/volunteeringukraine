@@ -184,7 +184,7 @@
         "city": "Kyiv oblast",
         "lat": 50.5842745,
         "lng": 30.494609,
-        "show": true
+        "show": false
       }
     ]
   },
@@ -226,7 +226,7 @@
         "city": "Lviv",
         "lat": 49.8415405,
         "lng": 24.0329847,
-        "show": true
+        "show": false
       }
     ]
   },
@@ -240,7 +240,7 @@
         "city": "Lviv",
         "lat": 49.8327705,
         "lng": 23.9296644,
-        "show": true
+        "show": false
       },
       {
         "city": "Dnipro",
@@ -252,7 +252,7 @@
         "city": "Kharkiv",
         "lat": 49.9946724,
         "lng": 36.2032536,
-        "show": true
+        "show": false
       }
     ]
   },
@@ -441,10 +441,10 @@
     ]
   },
   {
-    "name": "Volunteering-Ukraine Information center",
-    "category": "Lviv's central point for various volunteer engagements",
+    "name": "Volunteering-Ukraine kitchen hub",
+    "category": "VolunteeringUkraine.com Kitchen Hub serves as a place for international volunteers to prepare nutritious snacks for soldiers and as a volunteering information center.",
     "bgImg": "/images/popup/lviv_dropoff_hub.webp",
-    "url": "https://www.volunteeringukraine.com/volunteer-opportunities/volunteeringukraine-drop-off-hub",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/volunteering-ukraine-kitchen-hub",
     "positions": [
       {
         "city": "Lviv",
@@ -464,6 +464,20 @@
         "city": "Lviv",
         "lat": 49.8418925,
         "lng": 24.0329105,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "FinEst Volunteers",
+    "category": "FinEst Volunteers was founded by Finnish and Estonian volunteers who have been supporting Ukraine since the start of the full-scale invasion. We work to support Ukrainian refugees in Finland and deliver humanitarian aid to Ukraine.",
+    "bgImg": "/images/popup/finest_volunteers.jpeg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/finest-volunteers",
+    "positions": [
+      {
+        "city": "Rivne oblast",
+        "lat": 50.3930735,
+        "lng": 25.7349914,
         "show": true
       }
     ]
