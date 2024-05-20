@@ -18,7 +18,7 @@
     "vue": "^3.4.26",
     "vue-router": "^4.3.2",
     "vue3-google-map": "^0.20.0",
-    "axios": "^1.6.8"
+    "axios": "^1.7.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
