@@ -1,6 +1,6 @@
 <script>
 import {
-  defineComponent, reactive, computed, watch, onMounted,
+  defineComponent, reactive, computed, onMounted, watch,
 } from 'vue';
 import axios from 'axios';
 import markerData from '../assets/markers.json';
@@ -46,8 +46,9 @@ export default defineComponent({
   },
   methods: {
     async writeToFile() {
+      console.log('Saving markers:', this.state.markers);
       try {
-        const response = await axios.post('/.netlify/functions/saveMarkers', this.state.markers);
+        const response = await axios.post('/api/markers', this.state.markers);
         console.log(response.data.message);
       } catch (error) {
         console.error('Error saving markers:', error);

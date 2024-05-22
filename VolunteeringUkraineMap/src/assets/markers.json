@@ -481,5 +481,17 @@
         "show": true
       }
     ]
+  },
+  {
+    "name": "Food for Life Odesa",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/food-for-life-odesa",
+    "positions": [
+      {
+        "city": "Odesa",
+        "lat": "46.459972",
+        "lng": "30.7117875",
+        "show": true
+      }
+    ]
   }
 ]
