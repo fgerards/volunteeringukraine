@@ -93,25 +93,31 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="flex p-3">
+  <div class="min-h-screen bg-gray-100 p-6">
     <Login
       v-if="!state.isAuthenticated"
       @login-success="handleLoginSuccess"
     />
-    <div v-else>
-      <button @click="logout">
+    <div
+      v-else
+      class="container mx-auto rounded-lg bg-white p-6 shadow-md"
+    >
+      <button
+        class="mb-4 rounded bg-red-500 px-3 py-1 text-white hover:bg-red-600"
+        @click="logout"
+      >
         Logout
       </button>
       <form class="admin-form">
         <div class="mb-12">
-          <h2 class="font-bold">
+          <h2 class="mb-4 text-xl font-bold">
             Add New Location
           </h2>
           <p class="mt-4">
             Name:
             <input
               v-model="state.newMarker.name"
-              class="w-1/3 rounded-lg border-2 px-2 py-1"
+              class="mb-4 w-full rounded-lg border-gray-300 px-4 py-2"
               type="text"
               placeholder="Enter project name"
             >
@@ -120,56 +126,60 @@ export default defineComponent({
             URL:
             <input
               v-model="state.newMarker.url"
-              class="ml-3 w-11/12 rounded-lg border-2 p-1"
+              class="mb-4 w-full rounded-lg border-gray-300 px-4 py-2"
               type="text"
               placeholder="Enter project URL"
             >
           </p>
-          <div class="mx-6 my-4 w-full">
+          <div class="mt-6">
             <h3 class="mb-2 font-semibold italic">
               Project locations
             </h3>
-            <p
+            <div
               v-for="(position, posIndex) in state.newMarker.positions"
               :key="posIndex"
-              class="mb-2 scale-90 px-4"
+              class="mb-2"
             >
-              City: {{ position.city }} | Lat: {{ position.lat }} | Lng: {{ position.lng }} | Active: {{ position.show }}
-            </p>
-            <p class="mb-2 scale-90 px-4">
+              <p class="mb-2 flex items-center">
+                City: {{ position.city }} | Lat: {{ position.lat }} | Lng: {{ position.lng }} | Active: {{ position.show }}
+              </p>
+            </div>
+            <div class="mb-4 flex items-center">
               <input
                 v-model="state.newPosition.city"
-                class="mx-2 w-1/4 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
                 placeholder="City"
               >
               <input
                 v-model="state.newPosition.lat"
-                class="mx-2 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
                 placeholder="Lat"
               >
               <input
                 v-model="state.newPosition.lng"
-                class="mx-2 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
                 placeholder="Lng"
               >
               <input
                 v-model="state.newPosition.show"
                 type="checkbox"
-                class="mx-2 border-2"
+                class="mb-2 mr-2"
               > Active
               <button
                 type="button"
+                class="rounded bg-blue-500 px-3 py-1 text-white hover:bg-blue-600"
                 @click="addNewPositionToNewMarker"
               >
                 Add Location
               </button>
-            </p>
+            </div>
           </div>
           <button
             type="button"
+            class="mt-4 rounded bg-green-500 px-3 py-1 text-white hover:bg-green-600"
             @click="addNewMarker"
           >
             Add New Location
@@ -179,16 +189,16 @@ export default defineComponent({
         <fieldset
           v-for="(marker, markerIndex) in state.markers"
           :key="markerIndex"
-          class="mb-12"
+          class="mb-12 rounded-lg border p-4 shadow-sm"
         >
-          <h2 class="font-bold">
+          <h2 class="mb-4 text-xl font-bold">
             Project name: {{ marker.name }}
           </h2>
           <p class="mt-4">
             Name:
             <input
               v-model="marker.name"
-              class="w-1/3 rounded-lg border-2 px-2 py-1"
+              class="mb-4 w-full rounded-lg border-gray-300 px-4 py-2"
               type="text"
             >
           </p>
@@ -196,49 +206,53 @@ export default defineComponent({
             URL:
             <input
               v-model="marker.url"
-              class="ml-3 w-11/12 rounded-lg border-2 p-1"
+              class="mb-4 w-full rounded-lg border-gray-300 px-4 py-2"
               type="text"
             >
           </p>
-          <div class="mx-6 my-4 w-full">
+          <div class="mt-6">
             <h3 class="mb-2 font-semibold italic">
               Project locations
             </h3>
-            <p
+            <div
               v-for="(position, posIndex) in marker.positions"
               :key="posIndex"
-              class="mb-2 scale-90 px-4"
+              class="mb-4 flex items-center"
             >
-              City:
               <input
                 v-model="position.city"
-                class="mx-2 w-1/4 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
-              > Lat:
+                placeholder="City"
+              >
               <input
                 v-model="position.lat"
-                class="mx-2 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
-              > Lng:
+                placeholder="Lat"
+              >
               <input
                 v-model="position.lng"
-                class="mx-2 border-2 px-1"
+                class="mb-2 mr-2 flex-1 rounded-lg border-gray-300 px-4 py-2"
                 type="text"
+                placeholder="Lng"
               >
               <input
                 v-model="position.show"
                 type="checkbox"
-                class="mx-2 border-2"
+                class="mb-2 mr-2"
               > Active
               <button
                 type="button"
+                class="rounded bg-red-500 px-3 py-1 text-white hover:bg-red-600"
                 @click="deletePosition(markerIndex, posIndex)"
               >
                 Delete
               </button>
-            </p>
+            </div>
             <button
               type="button"
+              class="mt-2 rounded bg-blue-500 px-3 py-1 text-white hover:bg-blue-600"
               @click="addNewPositionToExistingMarker(marker)"
             >
               Add New Project Location
@@ -247,6 +261,7 @@ export default defineComponent({
         </fieldset>
         <button
           type="button"
+          class="mt-4 rounded bg-green-500 px-3 py-1 text-white hover:bg-green-600"
           @click="writeToFile"
         >
           Save Changes
@@ -257,5 +272,5 @@ export default defineComponent({
 </template>
 
 <style scoped>
-/* Add styles as needed */
+/* Add custom styles if needed */
 </style>
