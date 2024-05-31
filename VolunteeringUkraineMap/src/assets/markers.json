@@ -509,5 +509,19 @@
         "show": true
       }
     ]
+  },
+  {
+    "name": "NGO \"Through the war\"",
+    "category": "\"Through the War\" is dedicated to helping victims of russian aggression, including the elderly and disabled. We operate a specially equipped shelter designed to meet the unique needs of these individuals, providing 24/7 care and attention.",
+    "bgImg": "/images/popup/ngo_through_the_war.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-trough-the-war",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": "49.9945914",
+        "lng": "36.2858247",
+        "show": true
+      }
+    ]
   }
 ]
