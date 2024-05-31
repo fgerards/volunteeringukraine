@@ -1,7 +1,7 @@
 [
   {
     "name": "Make it possible",
-    "category": "Teaching english for refugee children",
+    "category": "Make It Possible Ukraine is an organization that provides Ukrainian child refugees with English lessons, creative workshops, entrepreneurial classes, and organizes summer camps for kids in shelters in western Ukraine.",
     "bgImg": "/images/popup/make_it_possible.jpg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/make-it-possible-ukraine",
     "positions": [
@@ -16,7 +16,7 @@
   {
     "name": "Brave to Rebuild",
     "city": "Kyiv, Irpin, Bucha, Gostomel, Kharkiv region, Kherson",
-    "category": "Rebuilding",
+    "category": "Brave to Rebuild was founded in May 2022, specializing in rebuilding destroyed houses in the Kyiv region and humanitarian trips to Kharkiv and the Kherson region.",
     "bgImg": "/images/popup/Brave_to_rebuild.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/brave-to-rebuild",
     "positions": [
@@ -60,7 +60,7 @@
   },
   {
     "name": "Domivka - Animal Shelter",
-    "category": "Animal shelter",
+    "category": "Domivka Shelter is a charitable organization that saves animals from human cruelty and creates comfortable conditions for them to continue living in a shelter or in the wild.",
     "bgImg": "/images/popup/Animal_Shelter.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/domivka-shelter",
     "positions": [
@@ -75,7 +75,7 @@
   {
     "name": "BUR - BUILDING UKRAINE TOGETHER",
     "city": "Zakarpattya, Lviv, Chernihiv, Kharkiv, Zaporizhzhia, Kyiv, Sumy(Okhtyrka)",
-    "category": "Personal Development & Community rebuilding",
+    "category": "Building Ukraine Together is a non-profit organization dedicated to creating opportunities to change the country through volunteering for the youth. Volunteering activities include building camps in the towns and villages of Ukraine, supporting communities.",
     "bgImg": "/images/popup/BUR.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/building-ukraine-together",
     "positions": [
@@ -126,7 +126,7 @@
   {
     "name": "Dobrobat",
     "city": "Kyiv, Chernihiv, Kharkiv, Zaporizhzhia, Sumy, Mykolaiv, Kherson",
-    "category": "Rebuilding",
+    "category": "Dobrobat is a volunteering building division focusing primarily on the restoration of damaged housing. The main task is quick restoration of damaged houses in order to help as many people as possible.",
     "bgImg": "/images/popup/dobrobrat.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/dobrobat-rebuilding",
     "positions": [
@@ -312,7 +312,7 @@
   },
   {
     "name": "Hell's kitchen",
-    "category": "Preparing meals / Humanitarian work",
+    "category": "Hell's Kitchen is a charitable initiative, preparing complex meals for people who have suffered due to the military aggression of Russia against Ukraine.",
     "bgImg": "/images/popup/Hells_Kitchen.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/hells-kitchen",
     "positions": [
@@ -400,7 +400,7 @@
   },
   {
     "name": "Lviv Animal Center \"Lev\"",
-    "category": "Animal shelter",
+    "category": "Lviv Animal Center \"Lev\" is a place of compassion, dedicated to caring for stray dogs and cats in Lviv. They warmly welcome volunteers to join in walking and offering love and care to these animals.",
     "bgImg": "/images/popup/lviv_animal_center_lev.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/animal-shelter-lev",
     "positions": [
@@ -414,7 +414,7 @@
   },
   {
     "name": "Kitty Pechersk",
-    "category": "Weaving camo nets, kikimoras",
+    "category": "«Kitty Pechersk» is a local volunteer community based in Kyiv,weaving camo nets, kikimoras",
     "bgImg": "/images/popup/kitty_pechersk.jpeg",
     "url": "https://www.volunteeringukraine.com/volunteer-opportunities/kitty-pechersk",
     "positions": [
@@ -484,6 +484,7 @@
   },
   {
     "name": "Food for Life Odesa",
+    "category": "Food for Life Odesa is distributing up to 500 hot vegetarian meals every day to those who who are in need on a daily basis.",
     "bgImg": "/images/popup/food_for_life_odesa.jpg",
     "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/food-for-life-odesa",
     "positions": [
@@ -491,6 +492,20 @@
         "city": "Odesa",
         "lat": "46.459972",
         "lng": "30.7117875",
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Goncharenko Center Odesa",
+    "category": "The Goncharenko Center is a nationwide educational and cultural network in Ukraine. The Odesa Derevianko branch actively supports soldiers by weaving camouflage nets and promotes education through English speaking clubs, language classes, and various art projects for both adults and children.",
+    "bgImg": "/images/popup/goncharenko_odesa.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/goncharenko-center-odesa",
+    "positions": [
+      {
+        "city": "Odesa",
+        "lat": "46.4436389",
+        "lng": "30.7024167",
         "show": true
       }
     ]
