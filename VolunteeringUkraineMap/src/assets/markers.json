@@ -523,5 +523,25 @@
         "show": true
       }
     ]
+  },
+  {
+    "name": "Repair together",
+    "category": "Repair Together is a grassroots organization dedicated to promoting civic engagement and mobilizing volunteers to address the aftermath of the war through cultural events, such as raves, stand-up shows, and artist concerts.",
+    "bgImg": "/images/popup/repair_together.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/repair-together",
+    "positions": [
+      {
+        "city": "Kjiv",
+        "lat": "50.449496",
+        "lng": "30.50861",
+        "show": true
+      },
+      {
+        "city": "Chernihiv",
+        "lat": "51.504941",
+        "lng": "31.3058131",
+        "show": true
+      }
+    ]
   }
 ]
