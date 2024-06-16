@@ -543,5 +543,33 @@
         "show": true
       }
     ]
+  },
+  {
+    "name": "Shcheznyk (Щезник)",
+    "category": " Shcheznyk (Щезник) is a volunteer organization dedicated to producing and supplying high-quality camouflage equipment (nets, ghillie suits) to the military, while also promoting the volunteer movement in Kharkiv.",
+    "bgImg": "/images/popup/synchnk_kharkiv.png",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/shcheznyk",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": "49.9945819",
+        "lng": "36.2858243",
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "ENGin",
+    "category": "ENGin is a nonprofit organization helping Ukraine speak to the world. We connect English-speaking volunteers with motivated Ukrainians for online speaking practice and cross-cultural exchange.",
+    "bgImg": "/images/popup/engin.png",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/engin",
+    "positions": [
+      {
+        "city": "Nation-wide",
+        "lat": "50.449491",
+        "lng": "30.50861",
+        "show": true
+      }
+    ]
   }
 ]
