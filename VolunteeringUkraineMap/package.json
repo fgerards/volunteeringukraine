@@ -18,7 +18,7 @@
     "vue": "^3.4.35",
     "vue-router": "^4.4.3",
     "vue3-google-map": "^0.21.0",
-    "axios": "^1.7.2"
+    "axios": "^1.7.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^9.26.0",
     "leaflet": "^1.9.4",
     "pnpm": "^9.5.0",
-    "postcss": "^8.4.39",
+    "postcss": "^8.4.41",
     "postcss-html": "^1.7.0",
     "stylelint": "^16.8.1",
     "stylelint-config-rational-order": "^0.1.2",
