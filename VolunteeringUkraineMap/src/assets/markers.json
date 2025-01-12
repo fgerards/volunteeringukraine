@@ -30,19 +30,19 @@
         "city": "Irpin",
         "lat": 50.526148207437096,
         "lng": 30.241051982499705,
-        "show": true
+        "show": false
       },
       {
         "city": "Gostomel",
         "lat": 50.5745745541678,
         "lng": 30.21459233809995,
-        "show": true
+        "show": false
       },
       {
         "city": "Bucha",
         "lat": 50.55123109600308,
         "lng": 30.214980916426814,
-        "show": true
+        "show": false
       },
       {
         "city": "Kharkiv (region)",
@@ -568,6 +568,118 @@
         "city": "Nation-wide",
         "lat": "50.449491",
         "lng": "30.50861",
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Artesans ResQ Ukraine",
+    "category": "Our organization specializes in the transportation of critically ill patients, including adults, children, and neonates, through a tailored and innovative approach.",
+    "bgImg": "/images/popup/artesan_resq.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/artesans-resq-ukraine",
+    "positions": [
+      {
+        "city": "Dnipro",
+        "lat": "48.4622985",
+        "lng": "35.0003565",
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "District #1",
+    "category": "The District #1 Charitable Foundation emerged against the backdrop of a humanitarian catastrophe in Ukraine following the onset of Russia’s full-scale invasion. Our mission is to empower communities to rebuild their lives, fostering resilience and creating pathways to recovery that help them thrive again.",
+    "bgImg": "/images/popup/district_1.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/charitable-organization-district-1",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.4536738,
+        "lng": 30.4939821,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Charity Fund \"Coast of Life\"",
+    "category": "\"Coast of Life\" is a volunteer team based in Odesa, Ukraine, dedicated to supporting the Ukrainian army with trench candles, repellent candles, and warming balms.",
+    "bgImg": "/images/popup/coast_of_life.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/charity-fund-coast-of-life",
+    "positions": [
+      {
+        "city": "Odesa",
+        "lat": 46.459972,
+        "lng": 30.7117875,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Green Shelter",
+    "category": "Green Shelter is an NGO dedicated to the care and protection of homeless dogs evacuated from war-affected areas. Their mission is to provide safe, temporary housing for displaced pets from shelters or private owners.",
+    "bgImg": "/images/popup/green_shelter.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/green-shelter",
+    "positions": [
+      {
+        "city": "Lviv region, Yavoriv",
+        "lat": 49.9502463,
+        "lng": 23.3751321,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "NH4Ukraine.org",
+    "category": "NH4Ukraine.org is an American nonprofit (the NH = New Hampshire) started shortly after Russia invaded Ukraine, to raise funds to purchase humanitarian aid inside Ukraine, then personally deliver it to the hardest-hit areas of the country.",
+    "bgImg": "/images/popup/green_shelter.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/nh4ukraine-org",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": 49.9502463,
+        "lng": 23.3751321,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "CO \"Angel of Life\"",
+    "category": "Founded by Ukrainian back in April of 2022 to combat the needs of every Ukrainian across the front. Angel of Life is a non-profit organisation based out of Lviv, Ukraine which specialises in the production of FPV Drones & Electronic Warfare devices, with years of expertise in the procurement of 4x4 vehicles, medical supplies and military equipment for the modern battlefield.",
+    "bgImg": "/images/popup/angel_of_life.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/co-angel-of-life",
+    "positions": [
+      {
+        "city": "Nation-wide",
+        "lat": 50.419491,
+        "lng": 30.51861,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "NGO \"Through the war\"",
+    "category": "\"Through the War\" is dedicated to helping victims of russian aggression, including the elderly and disabled. We operate a specially equipped shelter designed to meet the unique needs of these individuals, providing 24/7 care and attention.",
+    "bgImg": "/images/popup/through_the_war.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-trough-the-war",
+    "positions": [
+      {
+        "city": "Kharkiv",
+        "lat": 49.9945914,
+        "lng": 36.2858247,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "NGO \"Without Home\"",
+    "category": "The NGO \"Без Дому\" (\"Without Home\" in English) is dedicated to supporting homeless individuals, pensioners, people with disabilities, internally displaced persons, and other vulnerable groups.",
+    "bgImg": "/images/popup/without_home.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-without-home",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.4069606,
+        "lng": 30.3615538,
         "show": true
       }
     ]
