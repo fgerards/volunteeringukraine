@@ -511,20 +511,6 @@
     ]
   },
   {
-    "name": "NGO \"Through the war\"",
-    "category": "\"Through the War\" is dedicated to helping victims of russian aggression, including the elderly and disabled. We operate a specially equipped shelter designed to meet the unique needs of these individuals, providing 24/7 care and attention.",
-    "bgImg": "/images/popup/ngo_through_the_war.jpg",
-    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-trough-the-war",
-    "positions": [
-      {
-        "city": "Kharkiv",
-        "lat": "49.9945914",
-        "lng": "36.2858247",
-        "show": true
-      }
-    ]
-  },
-  {
     "name": "Repair together",
     "category": "Repair Together is a grassroots organization dedicated to promoting civic engagement and mobilizing volunteers to address the aftermath of the war through cultural events, such as raves, stand-up shows, and artist concerts.",
     "bgImg": "/images/popup/repair_together.jpg",
@@ -666,6 +652,144 @@
         "city": "Kharkiv",
         "lat": 49.9945914,
         "lng": 36.2858247,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Sunday Help for People in Need",
+    "category": "Help distribute hot meals and tea prepared by the church and offer clothing to people in need — including homeless individuals, pensioners, people with disabilities, and internally displaced persons.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/6915d236bfb3c859530026f1_IMG_5062.JPG",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/sunday-help-for-people-in-need",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8397,
+        "lng": 24.0297,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "NGO \"Wet Nose\"",
+    "category": "Wet Nose (Mokry Nosyk) is a no-kill animal shelter near Lutsk, Ukraine, rescuing and caring for over 120 dogs and cats while promoting adoption and responsible pet ownership.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/677bd92dbc6022287c8bd2d3_IMG_9792%20-%20Zhanna%20Anshukova-min.jpeg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-wet-nose",
+    "positions": [
+      {
+        "city": "Lutsk region",
+        "lat": 50.7472,
+        "lng": 25.3254,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Koridor UA",
+    "category": "Koridor UA is a Czech-Ukrainian nonprofit providing aid since 2022. Through our BUĎ Koridor project, we repair war-damaged infrastructure and rebuild community spaces.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/687f54f25c0b3457fb3baf3a_IMG_0433%20-%20Adam%20Barredo-min.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/koridor-ua",
+    "positions": [
+      {
+        "city": "Odesa",
+        "lat": 46.4825,
+        "lng": 30.7233,
+        "show": true
+      },
+      {
+        "city": "Mykolaiv",
+        "lat": 46.9750,
+        "lng": 31.9946,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Dignity Aid International",
+    "category": "Dignity Aid International provides emergency and recovery support to villages across southern Ukraine, delivering food, hygiene products, and construction materials to communities near the front lines.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/685c172f1e2fcb96223525ce_5395548177815433886%20-%20Abe%20Collier.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/dignity-aid-international",
+    "positions": [
+      {
+        "city": "Odesa",
+        "lat": 46.4825,
+        "lng": 30.7233,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "CO \"Chervona Kalyna\"",
+    "category": "Chervona Kalyna is a Kharkiv-based volunteer foundation providing hot meals, humanitarian aid, and emotional support to displaced families, children, and Ukrainian defenders since 2022.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/683ff130a5a081e172983a19_WhatsApp%20Image%202025-06-02%20at%2009.25.38.jpeg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/co-chervona-kalyna",
+    "positions": [
+      {
+        "city": "Kharkiv region",
+        "lat": 49.8500,
+        "lng": 37.6833,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "The 25th Airborne Brigade",
+    "category": "The 25th Airborne Brigade is an elite unit of the Ukrainian Air Assault Forces, specializing in rapid-response airborne and mechanized operations, including advanced drone reconnaissance and strike missions.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/680f64e232faa8da3150edd8_489334923_678182534894281_6937613839165104854_n.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/the-25th-airborne-brigade-of-the-armed-forces-of-ukraine",
+    "positions": [
+      {
+        "city": "Dnipro",
+        "lat": 48.4647,
+        "lng": 35.0462,
+        "show": true
+      },
+      {
+        "city": "Donetsk Oblast",
+        "lat": 48.7239,
+        "lng": 37.5828,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "Helping military with electronics",
+    "category": "Seeking skilled volunteers with experience in soldering electronic components and CAD/3D modeling to support the production of essential military equipment and drone systems.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/680658a81d27e820df2067e9_Circuit_borad_closeup_253a0bf8-2b67-45c5-be94-5e68e4e08dad.webp",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/helping-military-with-soldering-electronics",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8397,
+        "lng": 24.0297,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "DIY Ukraine | ДІЙ Україна",
+    "category": "DIY Ukraine is an NGO promoting urban transformation through tactical urbanism, design projects, and community building. Volunteers help with carpentry, urban research, bike repair, and administrative support.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/677bd92dbc6022287c8bd2d3_IMG_9792%20-%20Zhanna%20Anshukova-min.jpeg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/diy-ukraine-diy-ukrayina",
+    "positions": [
+      {
+        "city": "Kyiv",
+        "lat": 50.4501,
+        "lng": 30.5234,
+        "show": true
+      }
+    ]
+  },
+  {
+    "name": "NGO \"Believe in our Children's Future\"",
+    "category": "Believe in Our Children's Future is an NGO dedicated to bringing joy, stability, and positive experiences to Ukrainian internally displaced children and children from military families.",
+    "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/692700ce401186b6645eeef2_Quest%20in%20the%20city%20center%20-%20Bernie%20Hogan-min.jpg",
+    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-believe-in-our-childrens-future",
+    "positions": [
+      {
+        "city": "Lviv",
+        "lat": 49.8171091,
+        "lng": 24.0426762,
         "show": true
       }
     ]
