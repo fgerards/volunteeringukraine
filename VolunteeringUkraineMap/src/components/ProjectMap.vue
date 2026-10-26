@@ -30,7 +30,7 @@ export default defineComponent({
         zoomControl: false,
       },
       tileUrl:
-        'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+        'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_4uu6_1_3f0e12eac3d6ae0d11d9793c',
       tileLayerOptions: {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
