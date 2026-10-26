@@ -1,7 +1,40 @@
-# Vue 3 + Vite
+# VolunteeringUkraine user-generated map
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Vue and Leaflet map backed by Firebase Authentication and Realtime Database.
 
-## Recommended IDE Setup
+## Run locally
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Use Node.js 24.14.0 and npm 11.9.0. Firebase 13 requires Node.js 24.12 or later.
+From this directory, run:
+
+```sh
+nvm install
+nvm use
+npm ci
+npm run dev
+```
+
+Open the URL printed by Vite. To use a separate port while the other map runs:
+
+```sh
+npm run dev -- --port 15174 --strictPort
+```
+
+The app connects to the Firebase project configured in `src/firebaseConfig.js`.
+Map clicks can write to the live database. Use the **Sign In** button to start Google sign-in.
+
+## Build and preview
+
+```sh
+npm run build
+npm run preview
+```
+
+The build writes the app to `dist`. Firebase Hosting publishes this directory, so build before any separately authorized deployment.
+A successful local build does not verify Firebase sign-in or database writes.
+
+Use npm and the committed `package-lock.json` for dependency changes. Run `npm ci` after switching branches or Node.js versions.
+The repository-root GitHub Actions workflow installs and builds both map apps.
+
+The scoped `@grpc/grpc-js` override replaces Firebase Firestore's pinned vulnerable release with a patched version.
+The app uses Realtime Database, not Firestore.

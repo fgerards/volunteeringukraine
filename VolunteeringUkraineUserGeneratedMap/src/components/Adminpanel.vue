@@ -50,8 +50,4 @@ const signIn = async () => {
   const provider = new GoogleAuthProvider();
   await signInWithPopup(auth, provider);
 };
-
-signIn().catch((error) => {
-  console.error("Sign-in error", error);
-});
 </script>

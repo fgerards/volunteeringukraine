@@ -6,5 +6,3 @@ import { defineComponent, reactive } from 'vue'; import markerData from
 <template>
   <div />
 </template>
-
-<style scoped></style>
