@@ -643,20 +643,6 @@
     ]
   },
   {
-    "name": "NGO \"Through the war\"",
-    "category": "\"Through the War\" is dedicated to helping victims of russian aggression, including the elderly and disabled. We operate a specially equipped shelter designed to meet the unique needs of these individuals, providing 24/7 care and attention.",
-    "bgImg": "/images/popup/through_the_war.jpg",
-    "url": "https://www.volunteeringukraine.com/en/volunteer-opportunities/ngo-trough-the-war",
-    "positions": [
-      {
-        "city": "Kharkiv",
-        "lat": 49.9945914,
-        "lng": 36.2858247,
-        "show": true
-      }
-    ]
-  },
-  {
     "name": "Sunday Help for People in Need",
     "category": "Help distribute hot meals and tea prepared by the church and offer clothing to people in need — including homeless individuals, pensioners, people with disabilities, and internally displaced persons.",
     "bgImg": "https://cdn.prod.website-files.com/63b303944d1e9ec09b741257/6915d236bfb3c859530026f1_IMG_5062.JPG",
