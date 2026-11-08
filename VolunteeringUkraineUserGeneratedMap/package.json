@@ -12,7 +12,7 @@
     "axios": "^1.20.0",
     "firebase": "^13.1.0",
     "leaflet": "^1.9.4",
-    "vue": "^3.5.44"
+    "vue": "^3.5.45"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.10",
